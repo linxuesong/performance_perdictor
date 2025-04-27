@@ -4,6 +4,14 @@
 设备类型：ATLAS、RK3588
 资源类型： cpu、mem、npu
 
+```code
+pip install torch torchvision torchaudio
+pip install  scikit-learn 
+pip install openpyxl
+```
+
+
+
 # 任务延迟的影响因素
 常量信息：任务对资源的敏感度、任务单独运行时的性能
 变量信息：节点上各个服务负载的资源占用比例
